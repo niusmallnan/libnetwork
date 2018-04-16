@@ -23,7 +23,7 @@ import (
 
 const (
 	bridgeNetType = "bridge"
-	bridgeName    = "docker0"
+	bridgeName    = "docker-sys"
 )
 
 func i2s(i interface{}) string {
